@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #ffffff;
+    color: #642a73;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,11 +28,11 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #0917e7;
+    background: #bc4e9c;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(241, 89%, 39%), hsla(236, 90%, 32%, 0.664)), url(../img/portada.jpg);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 95%, 0), hsla(0, 0%, 100%, 0)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ nav{
 }
 
 nav > a{
-    color:rgb(0, 0, 0);
+    color:#fff;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -67,13 +67,13 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:rgb(0, 0, 0);
+    color:#fff;
 }
 
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color:rgb(3, 0, 180);
+    color:#fff;
 }
 
 .wave{
@@ -105,15 +105,15 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #1345cf4f;
-    color: rgb(0, 36, 238);
+    background: #4d0686;
+    color: #fff;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
     padding: 2px;
-    box-shadow: 0 0 6px 0 rgb(0, 13, 192);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
 
@@ -127,7 +127,7 @@ main .sobre-nosotros{
 
 
 .portafolio{
-    background: #0011fc;
+    background: #f2f2f2;
 }
 
 .galeria-port{
@@ -142,7 +142,7 @@ main .sobre-nosotros{
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 0 6px 0 rgb(0, 17, 255);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
 .imagen-port > img{
@@ -158,7 +158,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(30, 5, 255, 0.7);
+    background: hsla(273,91%,27%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -171,7 +171,7 @@ main .sobre-nosotros{
 }
 
 .hover-galeria p{
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .imagen-port:hover .hover-galeria{
@@ -186,7 +186,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #001aff;
+    background: #4d0686;
     display: flex;
     width: 46%;
     height: 200px;
@@ -200,14 +200,14 @@ main .sobre-nosotros{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid rgb(0, 44, 238);
+    border: 3px solid #fff;
     border-radius: 50%;
     display: block;
 }
 
 .cards .card > .contenido-texto-card{
     width: 60%;
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .cards .card > .contenido-texto-card p{
@@ -218,7 +218,7 @@ main .sobre-nosotros{
 /*  Our team */
 
 .about-services{
-    background: #ffffff;
+    background: #f2f2f2;
     padding-bottom: 30px;
 }
 
@@ -250,7 +250,7 @@ main .sobre-nosotros{
 /* footer */
 
 footer{
-    background: #0400ff;
+    background: #414141;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -262,7 +262,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid rgb(12, 0, 0);
+    border-bottom: 1px solid #ccc;
 }
 
 .content-foo{
@@ -271,13 +271,13 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid #af20d3;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .content-foo p{
-    color: rgb(255, 255, 255);
+    color: #ccc;
 }
 
 .titulo-final{
